@@ -1,0 +1,322 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #E0BEFE;
+}
+.Header_Principal_div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Header_Principal_Nav_Nav_a
+{
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    
+}
+.Header_Principal
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #804EB3;
+}
+.Header_Principal_h1
+{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 40px;
+}
+
+.Main_Principal
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10% ;
+    padding: 7%;
+}
+.Main_Principal_Section1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    gap: 4px;
+    /*Solo quitar si quedo feo el espacio*/
+}
+.Main_Principal_Section1_Title
+{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;   
+    font-size: 30px;
+    padding: 30px;
+    color: #804EB3;
+}
+.Main_Principal_Section1_Ingreso
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.Main_Principal_Section1_principal_Ingreso_Input
+{
+    font-size: 17px;
+    width: 90%;
+    gap: 30%;
+    color:#804EB3;
+}
+.Main_Principal_Section1_Ingreso2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.Main_Principal_Section1_principal_Ingreso_Input2
+{
+    font-size: 17px;
+    width: 90%;
+    gap: 30%;
+    color:#804EB3;
+}
+.Main_Principal_Section1_button
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.Main_Principal_Section1_principal_button_Activar
+{
+    background-color: #F5D1FE;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color:#804EB3;
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border-color: #F5D1FE;
+}
+.Main_Principal_Section1_button2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.Main_Principal_Section1_principal_button_Limpiar
+{
+    background-color: #F5D1FE;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color:#804EB3;
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border-color: #F5D1FE;
+}
+.Main_Principal_Section2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    gap: 4px;
+    padding: 5%;
+}
+.Main_Principal_Section2_Principal_img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main_Principal_Section2_Principal_img_img
+{
+    width: 300px;
+    gap: 30%;
+    padding: 5%;
+}
+.Main_Principal_Section2_Principal_p
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main_Principal_Section2_Principal_h3p
+{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.Main_Principal_Section2_Principal_h3p_h3
+{
+    color: #804EB3;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    
+}
+.Main_Principal_Section2_Principal_h3p_p
+{
+    color: #bc91e7;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.Peedy_Parrot
+{
+    width: 30px;
+    height: 30px;
+}
+.Header_Principal_Nav_Nav_a:hover
+{
+    background-color: #E0BEFE;
+    color: black;
+    border-radius: 10px;
+}
+.Header_Principal_Nav_Nav_a:active
+{
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+}
+.Main_Principal_Section1_principal_button_Activar:hover
+{
+    background-color: #E0BEFE;
+    color: black;
+}
+.Main_Principal_Section1_principal_button_Activar:active
+{
+    background-color: yellow;
+    color: black;
+}
+.Main_Principal_Section1_principal_button_Limpiar:hover
+{
+    background-color: #E0BEFE;
+    color: black;
+}
+.Main_Principal_Section1_principal_button_Limpiar:active
+{
+    background-color: yellow;
+    color: black;
+}
+.Main_Principal_Section1_principal_Ingreso_Input::placeholder
+{
+    color: #804EB3;
+}
+.Main_Principal_Section1_principal_Ingreso_Input2::placeholder
+{
+    color: #804EB3;
+}
+.Ocultar
+{
+    display: none;
+}
+.Aparecer
+{
+    display: block;
+}
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .Header_Principal
+    {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: auto;
+    }
+    .Header_Principal_Nav
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .Main_Principal
+    {
+        display: block;
+    
+    }
+    .Header_Principal_h1
+    {
+        font-size: 45px;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        padding: 40px;
+    }
+    .divisor
+    {
+        padding: 1%;
+    }
+    .Main_Principal_Section1
+    {
+        display: flex;
+        
+    }
+    .Main_Principal_Section2
+    {
+        
+        display: flex;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .Header_Principal
+    {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: auto;
+    }
+    .Header_Principal_Nav
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .Main_Principal
+    {
+        display: block;
+    
+    }
+    .Header_Principal_h1
+    {
+        font-size: 45px;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        padding: 40px;
+    }
+    .divisor
+    {
+        padding: 1%;
+    }
+    .Main_Principal_Section1
+    {
+        display: flex;
+        
+    }
+    .Main_Principal_Section2
+    {
+        
+        display: flex;
+    }
+}

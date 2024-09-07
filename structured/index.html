@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de errores</title>
+    <link rel="icon" href="/images/bonzi-bonzibuddy.ico">
+    <link rel="stylesheet" href="/style/styles.css">
+</head>
+<body>
+    <header class="Header_Principal">
+        <div class="Header_Principal_Nav">
+            <nav class="Header_Principal_Nav_Nav">
+                <a class="Header_Principal_Nav_Nav_a" href="/structured/index.html">Calculadora</a>
+            </nav>
+        </div>
+        <div class="Header_Principal_div">
+            <h1 class="Header_Principal_h1">Calculo de errores!</h1>
+        </div>
+        <div class="Header_Principal_Nav">
+            <nav class="Header_Principal_Nav_Nav">
+                <a class="Header_Principal_Nav_Nav_a" href="/structured/For.html">Ver formulas</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="Main_Principal">
+        <div class="Main_Principal_Section1">
+            <section class="Main_Principal_Section1_principal">
+                <div class="Main_Principal_Section1_Title">
+                    <h3 class="Main_Principal_Section1_principal_Title_h3">Ingrese los valores</h3>
+                </div>     
+                <div class="Main_Principal_Section1_Ingreso">
+                    <input id="VPB" class="Main_Principal_Section1_principal_Ingreso_Input" type="number" placeholder="Ingrese el valor aproximado">
+                </div>
+                <div class="Main_Principal_Section1_Ingreso2"> 
+                    <input id="VLR" class="Main_Principal_Section1_principal_Ingreso_Input2" type="number" placeholder="Ingrese el valor exacto"> 
+                </div>
+                <div class="Main_Principal_Section1_button">
+                    <button onclick="DarResultado()" class="Main_Principal_Section1_principal_button_Activar">Capturar valores</button>
+                </div>
+                <div class="Main_Principal_Section1_button2">
+                    <button onclick="ClearAll()" class="Main_Principal_Section1_principal_button_Limpiar">Limpar caja de textos</button>
+                </div>
+            </section>
+        </div>
+        <div class="divisor">
+            <p> </p>
+        </div>
+        <div class="Main_Principal_Section2">
+            <section class="Main_Principal_Section2_Principal">
+                <div class="Main_Principal_Section2_Principal_img">
+                    <img id="Imagen" class="Main_Principal_Section2_Principal_img_img" src="/images/bonzi-bonzibuddy.gif" alt="">
+                </div>
+                <div class="Main_Principal_Section2_Principal_h3p">
+                    <h3 id="ElH3" class="Main_Principal_Section2_Principal_h3p_h3">Al parecer no hay ningun valor aun ingresado</h3>
+                </div>
+                <div class="Main_Principal_Section2_Principal_p">
+                    <p id="TextoResultante" class="Main_Principal_Section2_Principal_h3p_p">Ingrese un valor para que se vea reflejado</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="Footer_Principal">
+    </footer>
+    <script src="/code/index.js"></script>
+</body>
+</html>
